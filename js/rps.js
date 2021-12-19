@@ -71,7 +71,7 @@ function game(){
     let win = 0;
     let lose = 0;
     let tie = 0;
-    for (let i = 1; i<=3;i++){
+    for (let i = 1; i<=5;i++){
         const playerSelection = prompt("Please input your choice of rock, paper or scissors!");
         const computerSelection = computerPlay(array);
         result = playRound(playerSelection,computerSelection);
